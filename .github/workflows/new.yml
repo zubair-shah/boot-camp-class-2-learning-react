@@ -29,10 +29,10 @@ jobs:
         with:
          cmd: yarn install  # yarn command
       - name: creating build
-        run: npm run build  
+        run: yarn build  
       - name: install surge
         run: npm install -g surge 
       - name: Run surge
-        run: surge ./build http://zubair_bootcamp_class_2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build zubair_bootcamp_class_2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
 
       
