@@ -17,7 +17,7 @@ function App() {
         >
           once again i am starting learning react
         </a>
-      <p>this is the new </p>
+      <p>yar 3 dafa try karliya </p>
       </header>
       
     </div>
