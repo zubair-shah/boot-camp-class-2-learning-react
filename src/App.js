@@ -17,7 +17,7 @@ function App() {
         >
           once again i am starting learning react
         </a>
-        <a> Now this change is because of github action </a>
+      <p>this is the new </p>
       </header>
       
     </div>
